@@ -1,0 +1,122 @@
+p {
+	font-family: "Times New Roman", serif;
+	font-size: 18px;
+	color:    #090326;
+	line-height: 1.5;
+}
+a {
+	background-color:  #edb8cb;
+}
+
+a:link {
+    color: white;
+   
+}
+
+a:visited {
+    color: red;
+    font-weight: bold;
+    font-size: 5px;
+}
+
+
+a:hover {
+	color:  #20d8d8;
+}
+
+a:active {
+	color: #20d84d;
+	font-size: 40px;
+}
+
+body {
+	max-width: 90%;
+	margin: auto;
+	background-color: pink;
+	background: linear-gradient(112deg, rgb(241, 20, 213), rgb(20, 55, 90));
+	background-image: url(1200px-Rice_02.jpg);
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	background-position: bottom right;
+	background-size: cover;
+	font-family: 'Pacifico', cursive;
+
+}
+
+blockquote, q {
+	width: 50%;
+	margin: auto;
+	font-size: 160%;
+	background-color: #eaecee;
+	border-left: 3px solid  #a93226;
+	padding-left: 30px;
+	margin-top: 80px;
+	margin-bottom: 80px;
+	font-style: italic;
+
+}
+
+.villageois {
+	border-left: 3px solid #dbf125;
+}
+
+.fermier {
+	border-left: 3px solid  #000000;
+}
+
+h1 {
+	background-color: yellow;
+}
+
+.bien, .mal {
+	text-transform: uppercase;
+}
+
+.mal {
+	color: red;
+}
+
+.bien {
+	color: green;
+}
+
+tr:nth-child(odd) {
+	background-color: grey;
+}
+
+tr:nth-child(even) {
+	background-color: white;
+}
+
+li{
+	padding: 20px 60px;
+}
+
+li:nth-child(1) {
+	background-image: url(bien.png);
+	background-repeat: no-repeat;
+	background-position: left;
+}
+
+li:nth-child(2) {
+	background-image: url(mal.png);
+	background-repeat: no-repeat;
+	background-position: left;
+}
+
+li:nth-child(3) {
+	background-image: url(chat.png);
+	background-repeat: no-repeat;
+	background-position: left;
+}
+
+h1 + p {
+  font-weight: bold;
+}
+
+img {
+	float: left;
+	margin: 10px;
+}
+
+
