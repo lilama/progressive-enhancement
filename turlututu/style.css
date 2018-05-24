@@ -1,0 +1,180 @@
+body {
+	width: 100%;
+	margin: 0;
+	padding: 0;
+	font-family: sans-serif;
+}
+a {
+	text-decoration: none;
+}
+nav {
+	background-color: #313233;
+	height: 2%;
+	width: 100%;
+	color: white;
+	padding: 0.5% 10% 0.5% 12%;
+	background-image: url(turlututuLogoMin.png);
+	background-position: top 45% left 6%;
+	background-repeat: no-repeat;
+}
+nav ul {
+	display: flex;
+	list-style-type: none;
+}
+nav li {
+	padding-right: 6%;	
+}
+nav li:last-child {
+	background-image: url(turlututuLogin.png);
+	background-repeat: no-repeat;
+	background-position: top 45% right 100% ;
+	margin-left: 19%;
+	padding-left: 1%;
+}
+header {
+	width: 100%;
+	background-image: url(turlututuImage.png);
+	background-position: top 34% left 8%;
+	background-repeat: no-repeat;
+	background-color: #3385ff;
+	height: 300px;
+	text-align: center;
+	padding-bottom: 2%;
+}
+header img {
+	margin-top: 1%;
+	width: 21%;
+}
+header h1 {
+	color: white;
+	font-size: 30px;
+	font-weight: lighter;
+	margin-bottom: 2%;
+}
+header a {
+	background-color: #ff6600;
+	color: white;
+	border: 1px solid white;
+	border-radius: 15px;
+	padding: 1%;
+} 
+.entete {
+	height: 30px;
+	color: grey;
+	font-size: 19px;
+	text-align: center;
+	padding-bottom: 1%;
+}
+.entete h1, .entete h3 {
+	font-weight: 100;
+	margin-top: 1%;
+}
+.corps {
+	background-color: #3385ff;
+	height: 400px;
+	padding: 2% 10% 2% 10%;
+	text-align: left;
+}
+.corps img {
+	position: absolute;
+	bottom: 210px;
+	right: 2%;
+}
+.corps .ligne1, .corps .ligne2 {
+	display: flex;
+	margin-left: 2%;
+	margin-right: 2%;
+	width: 95%;
+}
+.corps article {
+	margin-left: 1%;
+	width: 60%;
+	color: white;
+}
+.corps h2 {
+	font-size: 20px;
+	font-weight: 500;
+}
+.produit {
+	background-color: #f2f2f2;
+	height: 250px;
+	text-align: center;
+	padding-top: 40px;
+}
+.ssproduit a {
+	margin-right: 1%;
+}
+article .ssproduit {
+	display: flex;
+}
+.ssproduit {
+	margin-bottom: 30px;
+}
+.boutonAction {
+	height: 200px;
+}
+.boutonAction ul {
+	display: flex;
+	list-style-type: none;
+	margin: 2% 30% 5% 35%;
+	text-align: center;
+}
+.boutonAction li {
+	background-color: #3385ff;
+	margin-right: 1%;
+	height: 40px;
+	width: 150px;
+	border-radius: 8px;
+	padding: 3% 1% 0 1%;
+}
+.boutonAction a {
+	color: white;
+	text-decoration: none;
+}
+.boutonAction li:nth-child(3) {
+	background-color: #ff6600;
+}
+footer {
+	background-color: black;
+	color: white;
+	display: flex;
+	margin: 0;
+	padding-left: 0;
+	justify-content: space-between;
+}
+footer ul {
+	display: flex;
+	list-style-type: none;
+	padding: 0;
+	text-align: center;
+}
+footer li {
+	width: 80px;
+	font-size: 12px;
+	border-left: 1px dotted white;
+	margin: 1% 0% 1% 0%;
+	padding: 0% 2% 0% 2%;
+}
+footer li:first-child {
+	border-left: none;
+}
+footer li:nth-child(1), footer li:nth-child(2), footer li:nth-child(3)  {
+	flex: 1;
+}
+footer li:nth-child(4) {
+	flex: 3;
+}
+footer li:nth-child(5) {
+	flex: 2;
+}
+footer ul:nth-child(2) li {
+	width: 150px;
+	font-size: 12px;
+	margin: 1% 0% 1% 0%;
+	padding: 0% 2% 0% 2%;
+}
+.Tchat img {
+	position: absolute;
+	bottom: -617px;
+	right: 43px;
+}
